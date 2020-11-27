@@ -2,7 +2,7 @@ import { Box, Container } from '@material-ui/core';
 import React from 'react';
 import { RecoilRoot } from 'recoil';
 import './App.css';
-import TodoList from './components/TodoList';
+import TodoList from './components/todo/TodoList';
 
 const App: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const App: React.FC = () => {
       <Container>
         <Box marginTop={10}>
           <Box>Recoil Sample</Box>
-          <TodoList></TodoList>
+          <TodoList />
         </Box>
       </Container>
     </RecoilRoot>

@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 import { useRecoilValue } from 'recoil';
-import { Todo, todoListState } from '../state/Atoms';
+import { Todo, todoListState } from '../../state/Atoms';
 import TodoItem from './TodoItem';
 import TodoItemCreator from './TodoItemCreator';
 

@@ -1,8 +1,8 @@
 import { Box, Button, Checkbox, TextField } from '@material-ui/core';
 import React, { FC } from 'react';
 import { useRecoilState } from 'recoil';
-import { todoListState } from '../state/Atoms';
-import { Todo } from "../state/Atoms";
+import { todoListState } from '../../state/Atoms';
+import { Todo } from "../../state/Atoms";
 
 interface Props {
   todo: Todo;

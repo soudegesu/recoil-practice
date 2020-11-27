@@ -1,7 +1,7 @@
 import { Box, Button, TextField } from '@material-ui/core';
 import React, { FC, useState } from 'react';
 import { useSetRecoilState } from 'recoil';
-import { Todo, todoListState } from '../state/Atoms';
+import { Todo, todoListState } from '../../state/Atoms';
 
 const TodoItemCreator: FC = () => {
   const [inputValue, setInputValue] = useState<string>('');
